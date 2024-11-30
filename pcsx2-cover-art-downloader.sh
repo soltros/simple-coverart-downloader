@@ -7,7 +7,7 @@ OUTPUT_FOLDER="$HOME/Pictures/rom-covers"
 read -p "Enter the serial: " serial
 
 # Construct the URL
-url="https://raw.githubusercontent.com/xlenore/ps2-covers/main/covers/default/$serial.jpg"
+url="https://raw.githubusercontent.com/xlenore/ps2-covers/refs/heads/main/covers/default/$serial.jpg"
 
 # Download the cover art
 curl -s -o "$OUTPUT_FOLDER/$serial.jpg" "$url"
